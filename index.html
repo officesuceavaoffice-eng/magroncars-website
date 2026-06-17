@@ -1,135 +1,238 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Magron Cars Kft</title>
+
+<title>Magron Cars Kft | VIP Passenger Transport Budapest</title>
+
+<meta name="description" content="VIP passenger transport in Budapest and across Europe. Airport transfers, private chauffeur services and Mercedes Sprinter VIP transport.">
+
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 <header>
+<div class="container nav">
+
 <div class="logo">
 <img src="logo.png" alt="Magron Cars">
 </div>
 
 <nav>
-<a href="#home">Home</a>
-<a href="#about">About</a>
-<a href="#services">Services</a>
-<a href="#fleet">Fleet</a>
-<a href="#booking">Booking</a>
-<a href="#contact">Contact</a>
+<a href="#home" data-hu="Főoldal" data-en="Home">Főoldal</a>
+<a href="#about" data-hu="Rólunk" data-en="About">Rólunk</a>
+<a href="#services" data-hu="Szolgáltatások" data-en="Services">Szolgáltatások</a>
+<a href="#fleet" data-hu="Járműpark" data-en="Fleet">Járműpark</a>
+<a href="#booking" data-hu="Foglalás" data-en="Booking">Foglalás</a>
+<a href="#contact" data-hu="Kapcsolat" data-en="Contact">Kapcsolat</a>
 </nav>
+
+<div class="lang">
+<button onclick="setLang('hu')">HU</button>
+<button onclick="setLang('en')">EN</button>
+</div>
+
+</div>
 </header>
 
-<section id="home" class="hero">
-<div class="slider">
-<img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957" alt="">
-<img src="https://images.unsplash.com/photo-1519003722824-194d4455a60c" alt="">
-<img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70" alt="">
-</div>
+<section class="hero" id="home">
 
-<div class="hero-text">
-<h1>MAGRON CARS KFT</h1>
-<p>VIP Passenger Transport Across Hungary & Europe</p>
+<div class="overlay"></div>
 
-<a class="btn" href="https://wa.me/36206195189">
-Book on WhatsApp
+<div class="hero-content">
+
+<h1
+data-hu="VIP Személyszállítás Budapesten és Európában"
+data-en="VIP Passenger Transport in Budapest and Across Europe">
+VIP Személyszállítás Budapesten és Európában
+</h1>
+
+<p
+data-hu="Mercedes VIP transzferek, reptéri fuvarok és nemzetközi személyszállítás."
+data-en="Mercedes VIP transfers, airport transportation and international passenger services.">
+Mercedes VIP transzferek, reptéri fuvarok és nemzetközi személyszállítás.
+</p>
+
+<a href="#booking" class="btn"
+data-hu="Online Foglalás"
+data-en="Book Now">
+Online Foglalás
 </a>
+
 </div>
+
 </section>
 
 <section id="about">
-<h2>About Us</h2>
 
-<p>
-Magron Cars Kft is a modern passenger transport company based in Budapest.
-We provide VIP-quality airport transfers, local transport,
-international journeys and private transfers with comfort,
-safety and reliability.
+<div class="container">
+
+<h2
+data-hu="Rólunk"
+data-en="About Us">
+Rólunk
+</h2>
+
+<p
+data-hu="A Magron Cars Kft modern VIP személyszállítási szolgáltatásokat nyújt Budapesten és Európa-szerte. Új vállalatként a legmagasabb szintű kényelmet, biztonságot és megbízhatóságot kínáljuk ügyfeleinknek."
+data-en="Magron Cars Kft provides modern VIP passenger transport services in Budapest and throughout Europe. We focus on comfort, safety and reliability.">
+A Magron Cars Kft modern VIP személyszállítási szolgáltatásokat nyújt Budapesten és Európa-szerte.
 </p>
+
+</div>
+
 </section>
 
 <section id="services">
-<h2>Services</h2>
+
+<div class="container">
+
+<h2
+data-hu="Szolgáltatásaink"
+data-en="Our Services">
+Szolgáltatásaink
+</h2>
 
 <div class="cards">
+
 <div class="card">
-<i class="fas fa-plane"></i>
 <h3>Airport Transfers</h3>
 </div>
 
 <div class="card">
-<i class="fas fa-route"></i>
-<h3>International Transport</h3>
-</div>
-
-<div class="card">
-<i class="fas fa-car"></i>
 <h3>Private Transfers</h3>
 </div>
 
 <div class="card">
-<i class="fas fa-users"></i>
-<h3>Coach & Minibus Rental</h3>
+<h3>Business Travel</h3>
 </div>
+
+<div class="card">
+<h3>International Transport</h3>
 </div>
+
+<div class="card">
+<h3>Chauffeur Service</h3>
+</div>
+
+<div class="card">
+<h3>Event Transport</h3>
+</div>
+
+</div>
+
+</div>
+
 </section>
 
 <section id="fleet">
-<h2>Our Fleet</h2>
 
-<div class="gallery">
-<img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be">
-<img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341">
-<img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c">
+<div class="container">
+
+<h2
+data-hu="Járműpark"
+data-en="Fleet">
+Járműpark
+</h2>
+
+<div class="fleet-grid">
+
+<div class="vehicle">
+<img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1200&q=80">
+<h3>Mercedes V-Class VIP</h3>
 </div>
+
+<div class="vehicle">
+<img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80">
+<h3>Mercedes Vito VIP</h3>
+</div>
+
+<div class="vehicle">
+<img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=80">
+<h3>Mercedes Sprinter VIP 6</h3>
+</div>
+
+</div>
+
+</div>
+
 </section>
 
 <section id="booking">
-<h2>Online Booking</h2>
 
-<form>
-<input type="text" placeholder="Name">
-<input type="email" placeholder="Email">
-<input type="tel" placeholder="Phone">
-<input type="text" placeholder="Pickup Location">
-<input type="text" placeholder="Destination">
-<input type="date">
+<div class="container">
 
-<textarea placeholder="Message"></textarea>
+<h2
+data-hu="Online Foglalás"
+data-en="Online Booking">
+Online Foglalás
+</h2>
 
-<button type="submit">Send Request</button>
+<form id="bookingForm">
+
+<input type="text" id="name" placeholder="Name" required>
+
+<input type="tel" id="phone" placeholder="Phone" required>
+
+<input type="email" id="email" placeholder="Email">
+
+<input type="text" id="pickup" placeholder="Pickup Location">
+
+<input type="text" id="destination" placeholder="Destination">
+
+<input type="date" id="date">
+
+<input type="number" id="passengers" placeholder="Passengers">
+
+<button type="submit"
+data-hu="Foglalás WhatsAppon"
+data-en="Book via WhatsApp">
+Foglalás WhatsAppon
+</button>
+
 </form>
+
+</div>
+
 </section>
 
 <section id="contact">
-<h2>Contact</h2>
 
-<p><b>Address:</b><br>
-1062 Budapest, Székely Bertalan utca 20, pinceszint
-</p>
+<div class="container">
 
-<p>
-📞 +36 20 619 5189
-</p>
+<h2
+data-hu="Kapcsolat"
+data-en="Contact">
+Kapcsolat
+</h2>
 
-<p>
-✉️ magroncarskft@gmail.com
-</p>
+<p><strong>Magron Cars Kft</strong></p>
 
-<a class="btn" href="https://wa.me/36206195189">
+<p>1062 Budapest, Székely Bertalan utca 20, pinceszint</p>
+
+<p>+36 20 619 5189</p>
+
+<p>magroncarskft@gmail.com</p>
+
+<a href="https://wa.me/36206195189" class="btn">
 WhatsApp
 </a>
+
+</div>
+
 </section>
 
 <footer>
-<p>© 2026 Magron Cars Kft. All Rights Reserved.</p>
+
+<p>© 2026 Magron Cars Kft</p>
+
 </footer>
 
 <script src="script.js"></script>
+
 </body>
 </html>
